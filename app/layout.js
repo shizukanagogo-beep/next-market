@@ -2,12 +2,12 @@ import "./globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
 
-const RootLayout = ({ Children }) => {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
         <Header />
-        {Children}
+        {children}
         <Footer />
       </body>
     </html>
